@@ -6,6 +6,8 @@
     <title>Início logado</title>
   </head>
   <link rel="stylesheet" href="./css/inicio.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/reset.css" />
   <script
     src="https://kit.fontawesome.com/6cc8a6f404.js"
     crossorigin="anonymous"
@@ -13,41 +15,37 @@
 
   <body>
     <header id="header">
-      <img
-        id="logo"
-        src="./img/logo.png"
-        alt="logo autocare, a letra 'A' e a letra 'C' interligadas, da cor azul com um tema tecnologico"
-      />
-      <a href="./paginas/perfil.html"
-        ><img
-          id="perfil"
-          src="./img/icone_perfil.png"
-          alt="busto de um bonequinho azul, indicando um perfil"
-      /></a>
+      <div>
+        <img src="./img/logo.png" alt="" class="img" />
+      </div>
+      <nav id="menu" class="menu">
+        <i class="fa-solid fa-user" style="color: #336bd2"></i>
+      </nav>
     </header>
     <main id="conteudo">
-      <div id="body">
-        <div id="container1">
+      <section>
+        <div>
           <img
+            class="imgMulherBot"
             id="imgMulherBot"
             src="./img/Chat bot-bro (2) 1.png"
-            alt="imagem mulher robo tecnologica mexendo, conectada a fios, da cor azul, com computadores a sua volta "
+            alt="imagem mulher robo tecnologica mexendo "
           />
         </div>
+      </section>
+      <section class="container">
         <div>
-          <p>
+          <p id="txtResumo">
             AutoCareBot, seu assistente virtual especializado em mecânica
             automotiva, impulsionado pela mais avançada inteligência artificial.
           </p>
         </div>
         <div>
-          <a href="./paginas/chat-bot.html"
-            ><button id="inicieConversa" type="button">
-              Inicie uma conversa
-            </button></a
+          <a href="./paginas/cadastro.html"
+            ><button id="cadastro" type="button">Inicie uma conversa</button></a
           >
         </div>
-      </div>
+      </section>
     </main>
   </body>
 </html>

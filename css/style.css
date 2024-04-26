@@ -36,7 +36,6 @@ a{
     align-self: center;
     align-items: center;
     gap: 14vh;
-    margin-right: 6vw;
 }
 
 #conteudo{
@@ -58,16 +57,6 @@ a{
     font-size: 1.8vw;
     color: #fff;
     text-align: center;
-    border: 0;
-    transition: transform 0.3s ease, box-shadow 0.2s ease;
-}
-
-#cadastro:hover{
-    pointer-events: auto;
-    transform: translateY(-0.5vh);
-    box-shadow: 0vh 0.5vh 0.5vh #90C1F2;
-    cursor: pointer;
-
 }
 
 .imgMulherBot{
@@ -75,3 +64,7 @@ a{
     width: 100%;
 }
 
+i{
+    display: flex;
+    font-size: 150%;
+}
