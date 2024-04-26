@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+:root {
+    --primary-color: #9DCCFD;
+    --button-color: #336BD2;
+}

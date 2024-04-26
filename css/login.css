@@ -1,0 +1,15 @@
+#email input {
+    background: url(../img/icone_pessoa.png)  no-repeat;
+}
+
+#loginForm input{
+    display: block;
+}
+#senha input{
+    background: url(../img/icone_cadeado.png),
+    url(../img/Hide.png); 
+    background-repeat: no-repeat, no-repeat;
+    background-position: 1%,
+    99%
+
+}

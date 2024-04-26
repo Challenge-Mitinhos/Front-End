@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/cadastro.css" />
+    <title>Tela de Cadastro</title>
+  </head>
+  <body>
+    <a href="../index-deslogado.html">
+      <img
+        id="logo"
+        src="../img/logo.png"
+        alt="logo autocare, a letra 'A' e a letra 'C' interligadas, da cor azul com um tema tecnologico"
+    /></a>
+    <img
+      id="casalFeliz"
+      src="../img/Casal-feliz-no-carro-scaled 1.png"
+      alt="Casal de um homem e uma mulher negros, sorrindo e se olhando dentro de um carro, com o homem dirigindo"
+    />
+    <section id="campoCadastro">
+      <h2 id="title">Cadastre-se</h2>
+      <form class="inputs">
+        <div id="campoNome">
+          <label id="nome"
+            >Nome
+            <input id="txtField1" type="text" name="txtNm" />
+          </label>
+        </div>
+        <div id="campoSobrenome">
+          <label id="sobrenome"
+            >Sobrenome
+            <input id="txtField2" type="text" name="txtSobrenome" />
+          </label>
+        </div>
+        <div id="campoEmail">
+          <label id="email"
+            >Email
+            <input id="txtField3" type="text" name="txtEmail" />
+          </label>
+        </div>
+        <div id="campoCpf">
+          <label id="cpf"
+            >CPF
+            <input id="txtField4" type="text" name="txtCpf" />
+          </label>
+        </div>
+        <div id="campoTelefone">
+          <label id="telefone"
+            >Telefone
+            <input id="txtField5" type="text" name="txtTelefone" />
+          </label>
+        </div>
+        <div id="campoSenha">
+          <label id="senha"
+            >Senha
+            <input
+              id="txtField6"
+              type="text"
+              name="txtSenha"
+              placeholder="8+ caracteres"
+            />
+          </label>
+        </div>
+        <div>
+          <input type="checkbox" name="boxTermos" id="boxTermos" /><label
+            id="termos"
+            >Eu concordo com os termos...</label
+          >
+        </div>
+      </form>
+      <a href="../index-logado.html">
+        <button id="criarConta" type="button">Criar Conta</button></a
+      >
+    </section>
+    <div id="footerCadastro">
+      <p>Já possui uma conta? <a href="./tela-login.html">Entre aqui</a></p>
+    </div>
+  </body>
+</html>
