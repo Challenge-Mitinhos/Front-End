@@ -1,3 +1,7 @@
-#campoCadastro  input{
+#campoCadastro input{
     display: block;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-between;
 }
