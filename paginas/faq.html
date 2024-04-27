@@ -3,66 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/faq.css" />
+
+    <script
+      src="https://kit.fontawesome.com/6cc8a6f404.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Faq</title>
   </head>
   <body>
     <header>
-      <div id="logo">
-        <a href="#time">
-          <img
-            src="../img/logo.png"
-            alt="logo autocare, a letra 'A' e a letra 'C' interligadas, da cor azul com um tema tecnologico"
-        /></a>
+      <div>
+        <img src="../img/logo.png" alt="" class="img" />
       </div>
       <div id="menu">
         <nav>
-          <ul>
+          <ul class="menuzinho">
             <li><a href="../index-logado.html">Home</a></li>
             <li><a href="#time">About</a></li>
             <li><a href="./chat-bot.html">ChatBot</a></li>
           </ul>
         </nav>
       </div>
-      <div id="perfil">
-        <a href="./perfil.html">
-          <img
-            src="../img/icone_perfil.png"
-            alt="busto de um bonequinho azul, indicando um perfil"
-        /></a>
+      <div id="icon">
+        <i class="fa-solid fa-user" style="color: #336bd2"></i>
       </div>
     </header>
     <main id="conteudo">
-      <div id="texto">
-        <p id="Time">Time</p>
-        <h2>Nosso Time</h2>
-        <p>
-          Consulte problemas técnicos em seu automóvel e entenda como resolvê-lo
-          em tempo real
-        </p>
-        <a href="#Time">
-          <button id="buttonFaq" type="button">Confira nossa FAQ</button></a
-        >
-      </div>
-      <div id="imagem">
-        <img
-          src="../img/Team work-rafiki 1.png"
-          alt="três pessoas segurando peças de quebra cabeça juntando aos poucos"
-        />
-      </div>
-      <div id="time">
-        <i class="fi fi-br-horizontal-rule"></i>
-        <h1>Time</h1>
-        <i class="fi fi-br-horizontal-rule"></i>
-      </div>
-      <section id="fotos">
-        <div id="mikael">
+      <section class="container">
+        <div id="texto">
+        
+          <h2>Nosso Time</h2>
+          <p>
+            Consulte problemas técnicos em seu automóvel e entenda como
+            resolvê-lo em tempo real
+          </p>
+          <a href="#Time">
+            <button id="buttonFaq" type="button">Confira nossa FAQ</button></a
+          >
+        </div>
+      </section>
+      <section class="container">
+        <div id="imagem">
+          <img
+            src="../img/Team work-rafiki 1.png"
+            alt="três pessoas segurando peças de quebra cabeça juntando aos poucos"
+          />
+        </div>
+      </section>
+    </main>
+  
+    <div id="time">
+      <i class="fa-solid fa-window-minimize" style="color: #336bd2;"></i>
+      <h1>Time</h1>
+      <i class="fa-solid fa-window-minimize" style="color: #336bd2;"></i>
+    </div>
+     <section id="fotos">
+        <div id="perfil">
           <img
             src="../img/mikael.png"
             alt="foto do colaborador Mikael, com fundo azul pastel, um homem branco, de 18 anos, cabelos e olhos castanhos, vestindo uma camisa amarela e olhando sério para a cãmera"
           />
           <h2>Mikael Sanches</h2>
           <h3>Systems Analyst and Developer</h3>
-          <p>Desenvolvedor iniciante, começando esse ano, Com 18 anos.</p>
+          <p>Desenvolvedor iniciante, começando esse ano, Com 19 anos.</p>
           <nav>
             <ul>
               <li>
@@ -85,7 +91,7 @@
             </ul>
           </nav>
         </div>
-        <div id="murilo">
+        <div id="perfil">
           <img
             src="../img/murilo.png"
             alt="foto do colaborador Murilo, com fundo salmão pastel, um homem branco, de 19 anos, cabelos e olhos castanhos, com um fone de ouvido branco, olhando sério para a câmera com a cabeça levemente inclinada"
@@ -115,14 +121,14 @@
             </ul>
           </nav>
         </div>
-        <div id="paula">
+        <div id="perfil">
           <img
             src="../img/paula.png"
             alt="foto da colabora Paula, em um fundo amarelo pastel, uma mulher branca, de 19 anos, cabelos castanhos claros e olhos castannhos, usa óculos, olhando para a câmera com um leve sorriso e cabeça levemente inclinada"
           />
           <h2>Paula Blesa</h2>
           <h3>Systems Analyst and Developer</h3>
-          <p>Desenvolvedora iniciante, começando esse ano, Com 19 anos.</p>
+          <p>Desenvolvedora des dos 18 anos.</p>
           <nav>
             <ul>
               <li>
@@ -147,32 +153,31 @@
         </div>
       </section>
     </main>
-    <footer class="siganos">
-      <div>
-        <h2>Siga-nos</h2>
+    <footer class="siganos"> 
+       <h2 class="siga">Siga-nos</h2>
+      <div class="rede_social">
+      
         <nav>
-          <ul>
+          <ul class="social_container">
             <li>
-              <a href="#"
-                ><img src="../img/footer_facebook.png" alt="icone do facebook"
-              /></a>
+              <a href="#">
+                <i class="fa-brands fa-facebook"  alt="icone do facebook" style="color: #336bd2;"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-x-twitter" alt="icone do twitterX" style="color: #336bd2;"></i>
+              </a>
             </li>
             <li>
               <a href="#"
-                ><img src="../img/footer-twitterX.png" alt="icone do twitterX"
-              /></a>
+                ><i class="fa-brands fa-github" alt="icone do github" style="color: #336bd2;"></i>
+           </a>
             </li>
             <li>
-              <a href="#"
-                ><img src="../img/footer-gitHub.png" alt="icone do github"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img
-                  src="../img/footer-instagram.png"
-                  alt="icone do instagram"
-              /></a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"  alt="icone do instagram" style="color: #336bd2;"></i>
+               </a>
             </li>
           </ul>
         </nav>

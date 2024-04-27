@@ -1,0 +1,110 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 8vw;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 4vw;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    margin: 40px;
+}   
+
+.img{
+    display: flex;
+    width: 6vw;
+ 
+}
+
+i{
+    display: flex;
+    font-size: 200%;
+}
+
+.menuzinho{
+    display: flex;
+  
+    gap: 80%;
+    
+}
+
+#conteudo{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+#txtResumo{
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+#cadastro{
+    background-color:  var(--button-color);
+    width: 20vw;
+    height: 10vh;
+    border-radius: 4vh;
+    font-size: 1.8vw;
+    color: #fff;
+    text-align: center;
+}
+
+#fotos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    background-color: #F4F4F4;
+}
+
+#time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    background-color: #F4F4F4;
+}
+
+.social_container{
+  
+display: flex;
+margin: 10px;
+gap: 32px;
+justify-content: start;
+
+}
+
+.siga{
+    margin: 10px;
+    font-size: 2vw;
+}
+
+#buttonFaq{
+    background-color:  var(--button-color);
+    width: 18vw;
+    height: 8vh;
+    border-radius: 4vh;
+    font-size: 1.3vw;
+    color: #fff;
+    text-align: center;
+    gap: 90%;
+}
+
+.container{
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+  
+}
+
+#texto{
+
+    font-size: 2vw;
+}

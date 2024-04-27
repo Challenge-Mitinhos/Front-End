@@ -1,15 +1,37 @@
-#email input {
-    background: url(../img/icone_pessoa.png)  no-repeat;
+#conteudo{
+    display: flex;
+    overflow-y: hidden;
 }
 
-#loginForm input{
-    display: block;
+#ladoEsquerdo{
+    height: 100vh;
 }
-#senha input{
-    background: url(../img/icone_cadeado.png),
-    url(../img/Hide.png); 
-    background-repeat: no-repeat, no-repeat;
-    background-position: 1%,
-    99%
 
+#ladoDireito{
+    display: flex;
+}
+
+#ladoDireitoSemLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo input{
+    width: 30vw;
+    height: 5vh;
+    padding: 0.8vw;
+    font-size: 0.8vw;
+}
+
+#img{
+    width: 4vw;
+    margin: 2vw;
 }

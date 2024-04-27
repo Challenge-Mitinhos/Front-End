@@ -1,7 +1,150 @@
-#campoCadastro input{
-    display: block;
+#conteudo{
+    overflow-y: hidden;
 }
-.conteudo{
+
+#ladoEsquerdo{
+    display: flex;
+    flex-direction: column;
+    width: 56.5vw;
+    height: 100vh;
+}
+
+#logo{
+    height: fit-content;
+    width: 50vw;
+}
+
+.logo{
+    width: 4vw;
+    margin: 2vw;
+}
+
+#campoCadastro{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    margin-left: 1vw;
+}
+
+#campoCadastro h2{
+    text-align: center;
+    width: 50vw;
+}
+
+#title{
+    margin-top: -5vh;
+    height: fit-content;
+    width: fit-content;
+    font-size: 3vw;
+    color: #01A1FD;
+    margin-bottom: 5vh;
+}
+
+#conteudo{
     display: flex;
     justify-content: space-between;
+}
+
+#inputs{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    font-size: 1vw;
+    padding-bottom: 5vh;
+}
+
+.campo{
+    padding: 0.5vw;
+    display: flex;
+    margin: 0.2vh;
+    flex-direction: column;
+    color: #2A5587;
+}
+
+.campo label{
+    padding-bottom: 0.5vh;
+}
+
+.inptPequeno{
+    width: 14.39vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 0.3vh solid #2A5587;
+    padding-left: 0.7vw;
+}
+
+.inptGrande{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 0.3vh solid #2A5587;
+    padding-left: 0.7vw;
+}
+
+.inptGrande::placeholder{
+    font-weight: lighter;
+    color: #828282;
+    opacity: 1;
+}
+
+#termos{
+    display: flex;
+    margin-top: -2vh;
+    font-size: 0.9vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    color: #828282;
+}
+
+.caixa{
+    width: 1vw;
+    height: 1vw; 
+    cursor: pointer; 
+}
+
+#boxTermos{
+    margin-top: -4.2vh;
+    margin-left: -15vw;
+}
+
+.botao{
+    margin-bottom: vh;
+    width: 10vw;
+    height: 5vh;
+    background-color: #2A5587;
+    font-size: 1vw;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0.5vw;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.2s ease;
+}
+
+.botao:hover{
+    pointer-events: auto;
+    transform: translateY(-0.5vh);
+    box-shadow: 0vh 0.5vh 0.5vh #90C1F2;
+    cursor: pointer;
+}
+
+#irParaLogin{
+    display: flex;
+    margin-top: 12vh;    
+}
+
+#ladoDireito{
+    height: 100vh;
+}
+
+#casalFeliz{
+    box-sizing: border-box;
+    width: 43.5vw;
+    height: auto;
 }
