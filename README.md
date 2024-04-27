@@ -14,7 +14,7 @@ Com o **AutoCare Bot**, os clientes têm acesso a um menu intuitivo que simplifi
 
 ## Contribuição
 
-Contribuições são bem-vindas! Se você encontrar algum problema ou tiver alguma sugestão de melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver alguma sugestão de melhoria, sinta-se à vontade para abrir uma issue.
 
 ## Grupo
 
