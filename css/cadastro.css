@@ -91,9 +91,10 @@
     font-weight: lighter;
     color: #828282;
     opacity: 1;
+    font-size: 0.95vw;
 }
 
-#termos{
+.termo{
     display: flex;
     margin-top: -2vh;
     font-size: 0.9vw;
@@ -147,4 +148,8 @@
     box-sizing: border-box;
     width: 43.5vw;
     height: auto;
+}
+
+#textoPossuiConta{
+    font-size: 1.1vw;
 }

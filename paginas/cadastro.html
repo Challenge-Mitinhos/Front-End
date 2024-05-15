@@ -11,7 +11,7 @@
     <!-- <a href="../index-deslogado.html"> -->
     <main id="conteudo">
       <div id="ladoEsquerdo">
-        <div id="logo"><a href="../index.html"><img src="../img/logo.png" alt="logo AutoCare" class="logo""></a></div>
+        <div id="logo"><a href="../index.html"><img src="../img/logo.png" alt="logo AutoCare" class="logo"></a></div>
         <section id="campoCadastro">
 
           <h2 id="title">Cadastre-se</h2>
@@ -29,7 +29,7 @@
 
             <div id="campoEmail" class="campo">
               <label id="email">Email</label>
-              <input id="txtField3" type="text" name="txtEmail" class="inptGrande" placeholder=""/>
+              <input id="txtField3" type="email" name="txtEmail" class="inptGrande" placeholder=""/>
             </div>
 
             <div id="campoCpf" class="campo">
@@ -39,33 +39,33 @@
 
             <div id="campoTelefone" class="campo">
               <label id="telefone">Telefone</label>
-              <input id="txtField5" type="text" name="txtTelefone" class="inptPequeno"/>
+              <input id="txtField5" type="tel" name="txtTelefone" class="inptPequeno"/>
             </div>
 
             <div id="campoSenha" class="campo">
               <label id="senha">Senha</label>
-              <input id="txtField6" type="text" name="txtSenha" class="inptGrande" placeholder="8+ caracteres"/>
+              <input id="txtField6" type="password" name="txtSenha" class="inptGrande" minlength="8" placeholder="8+ caracteres"/>
             </div>
 
             
           </form>
-          <div id="termos">
+          <div id="termos" class="termo">
             <input type="checkbox" id="boxTermos" class="caixa"/>
-            <label id="termos">Eu concordo com os termos...</label>
+            <label id="txtTermos" class="termo">Eu concordo com os termos...</label>
           </div>
           
           <div id="botaoCriarConta">
-            <a href="../index-logado.html"><button id="botaoConta" type="button" class="botao">Criar conta</button></a>
+            <button id="botaoConta" form="inputs" type="submit" class="botao" formaction="../dashboard.html">Criar conta</button>
           </div>
 
           <div id="irParaLogin">
-            <p>Já possui uma conta? <a href="./tela-login.html">Entre aqui</a></p>
+            <p id="textoPossuiConta">Já possui uma conta? <a href="./tela-login.html">Entre aqui</a></p>
           </div>
         </section>
       </div>
 
       <section id="ladoDireito">
-        <img id="casalFeliz" src="../img/Casal-feliz-no-carro-scaled 1.png" alt="Casal de um homem e uma mulher negros, sorrindo e se olhando dentro de um carro, com o homem dirigindo"/>
+        <img id="casalFeliz" src="../img/Casal-feliz.png" alt="Casal de um homem e uma mulher negros, sorrindo e se olhando dentro de um carro, com o homem dirigindo"/>
       </section>
 
     </main>
