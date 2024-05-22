@@ -73,21 +73,20 @@
 
 .inptPequeno{
     width: 14.39vw;
-    height: 5vh;
-    border-radius: 10px;
-    border: 0.3vh solid #2A5587;
-    padding-left: 0.7vw;
 }
 
 .inptGrande{
     width: 30vw;
+}
+
+.input{
     height: 5vh;
-    border-radius: 10px;
+    border-radius: .7rem;
     border: 0.3vh solid #2A5587;
     padding-left: 0.7vw;
 }
 
-.inptGrande::placeholder{
+.input::placeholder{
     font-weight: lighter;
     color: #828282;
     opacity: 1;
@@ -152,4 +151,17 @@
 
 #textoPossuiConta{
     font-size: 1.1vw;
+}
+
+@media screen and (max-width:1075px) {
+    #ladoDireito{
+        width: 0;
+    }
+    #ladoEsquerdo{
+        width: 100vw;
+    }
+    #conteudo{
+        overflow-y: auto;
+        height: 100vh;
+    }
 }
