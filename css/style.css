@@ -9,23 +9,40 @@ header {
 
 .img{
     display: flex;
-    width: 6vw;
+    width: 23%;
+}
+
+.opcao{
+    color: black;
+    transition: all ease-in .1s;
+}
+
+.opcao:hover{
+    color: rgb(82, 82, 82);
 }
 
 #login{
-    display: flex;
-    font-size: 4vw;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #01A1FD;  
+    transition: all ease-in .1s;  
 }
 
-.menu{
+#login:hover{
+    color: #53c0ff;
+}
+
+.fa-user{
+    padding-left: 2rem;
+}
+
+.menu ul{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    font-size: 50px;
-    margin: 40px;
-}
-
-a{
-    color: var(--button-color);
+    gap: 2rem;
+    font-size: 1.3rem;
+    margin: 3.5rem;
 }
 
 .container{
@@ -57,13 +74,13 @@ a{
 
 #tituloResumo{
     font-size: 3rem;
-    
 }
 
 #txtResumo{
     font-size: 1.25rem;
     padding-top: .8rem;
     padding-bottom: 1.4rem;
+    color: #1e272fe1;
 }
 
 #conteudo{
@@ -77,6 +94,7 @@ a{
     height: 8vh;
     border-radius: 1.1rem;
     font-size: 1.4vw;
+    font-weight: 600;
     color: #fff;
     text-align: center;
     border: 0;
@@ -88,7 +106,6 @@ a{
     transform: translateY(-0.5vh);
     box-shadow: 0vh 0.5vh 0.5vh #90C1F2;
     cursor: pointer;
-
 }
 
 .imgMulherBot{
@@ -112,13 +129,7 @@ main{
 }
 
 footer{
-
-    
     padding: 1vw;
-}
-
-section{
-    
 }
 
 .social-container{
@@ -127,16 +138,16 @@ section{
   
     gap: 60px;
 }
+
 .decoretion{
     display: grid;
     flex-direction: column;
     background-color: #90C1F2;
 }
+
 .social_container{
-  
     display: flex;
     margin: 10px;
     gap: 32px;
     justify-content: start;
-    
-    }
+}
