@@ -14,9 +14,9 @@
 
 #ladoDireito{
     display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 60vw;
-    gap: 1.35vw;
 }
 
 .title{
@@ -45,13 +45,13 @@
 #ladoDireitoSemLogo{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 10vh;
     align-items: center;
-    width: 40vw;
 }
 
 #ladoDireitoSemLogo .title{
-    padding-top: 15vh;
+    padding-top: 5vh;
 }
 
 .campo{
@@ -124,7 +124,7 @@
 }
 
 #irParaCadastro{
-    padding-bottom: 10vh;
+   
 }
 
 #irParaCadastro p{
