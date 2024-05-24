@@ -113,6 +113,10 @@
     padding-bottom: 3.4rem;
 }
 
+#irParaCadastro p{
+    color: #2A5587;
+}
+
 #irParaCadastro a{
     list-style: none;
     color: #01A1FD;

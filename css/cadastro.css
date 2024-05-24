@@ -113,6 +113,10 @@ body{
     margin-bottom: 7vw;
 }
 
+#irParaLogin p{
+    color: #2A5587;
+}
+
 #irParaLogin a{
     list-style: none;
     color: #01A1FD;
