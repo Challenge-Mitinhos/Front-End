@@ -3,55 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/chat-bot.css">
+
     <title>ChatBot</title>
   </head>
   <body>
-    <header>
-      <div id="logo">
-        <a href="./faq.html">
-          <img
-            src="../img/logo.png"
-            alt="logo autocare, a letra 'A' e a letra 'C' interligadas, da cor azul com um tema tecnologico"
-        /></a>
+    <header id="header">
+      <div>
+        <img src="../img/logo.png" alt="logo AutoCare" class="img" />
       </div>
-      <div id="menu">
+      <nav id="menu" class="menu">
+        <!-- <i onclick="openNavHalf()" id="icon-half-menu" class="fas fa-bars"></i> -->
+        <ul>
+          <li><a href="#" class="opcao">Home</a></li>
+          <li><a href="#" class="opcao">ChatBot</a></li>
+      
+        </ul>
+      </nav>
+    </header>
+    <main id="conteudo">
+      <div class="container">
+ 
+        
+      </div>
+    </main>
+    <footer class="siganos">
+      <h2 class="siga">Siga-nos</h2>
+      <div class="rede_social">
         <nav>
-          <ul>
-            <li><a href="../index-logado.html">Home</a></li>
-            <li><a href="faq.html">About</a></li>
-            <li><a href="#txtChat">ChatBot</a></li>
+          <ul class="social_container">
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-facebook" style="color: #336bd2"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-x-twitter" style="color: #336bd2"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-brands fa-github" style="color: #336bd2"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-instagram" style="color: #336bd2"></i>
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
-      <div id="perfil">
-        <img
-          src="../img/icone_perfil.png"
-          alt="busto de um bonequinho azul, indicando um perfil"
-        />
-      </div>
-    </header>
-    <main id="conteudo">
-      <div id="chat">
-        <img src="../img/Frame 1171275447 (1).png" alt="conversa em produção" />
-        <div id="resposta">
-          <button id="quadradinho" type="button">
-            <img
-              src="../img/quadradinhos.png"
-              alt="4 quadradinhos para mais ações"
-            />
-          </button>
-          <input id="txtChat" type="text" placeholder="Digite sua mensagem" />
-          <button id="microfone" type="button">
-            <img src="../img/microfone.png" alt="microfone para mandar audio" />
-          </button>
-          <button id="enviar" type="button">
-            <img
-              src="../img/enviar.png"
-              alt="botao para enviar a mensagem, um aviãozinho de papel"
-            />
-          </button>
-        </div>
-      </div>
-    </main>
+      <p class="copy">Todos os direitos reservados à AutoCare &copy; 2024</p>
+    </footer>
   </body>
 </html>
