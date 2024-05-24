@@ -113,6 +113,11 @@ body{
     margin-bottom: 7vw;
 }
 
+#irParaLogin a{
+    list-style: none;
+    color: #01A1FD;
+}
+
 #ladoDireito{
     height: fit-content;
 }

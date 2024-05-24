@@ -11,6 +11,29 @@
     display: flex;
 }
 
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subTitle{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: .3rem;
+    color: #2A5587;
+}
+
+#title{
+    font-size: 3rem;
+    color: #01A1FD;
+}
+
+#sub1{
+    color: #01A1FD;
+}
+
 #ladoDireitoSemLogo{
     display: flex;
     flex-direction: column;
@@ -19,16 +42,85 @@
     width: 40vw;
 }
 
+#ladoDireitoSemLogo .title{
+    padding-top: 100px;
+}
+
+.campo{
+    padding: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    color: #2A5587;
+}
+
+.input{
+    height: 3.5rem;
+    width: 30vw;
+    border-radius: .7rem;
+    border: 0.3vh solid #2A5587;
+    padding-left: 0.7vw;
+    margin-top: .45rem;
+}
+
+#email, #senha{
+    font-weight: bold;
+    font-size: large;
+}
+
+.input::placeholder{
+    font-weight: lighter;
+    color: #828282;
+    font-size: 1rem;
+}
+
+.botao{
+    width: 15rem;
+    height: 3.5rem;
+    background-color: #2A5587;
+    font-size: 1vw;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0.5vw;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.2s ease;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.lembrar{
+    display: flex;
+    align-items: center;
+    font-size: 0.8vw;
+    gap: 1vw;
+    color: #828282;
+    margin-top: .1rem;
+    margin-left: .6rem;
+}
+
+.caixa{
+    width: 1vw;
+    height: 1vw; 
+    cursor: pointer; 
+}
+
+#irParaCadastro{
+    padding-bottom: 3.4rem;
+}
+
+#irParaCadastro a{
+    list-style: none;
+    color: #01A1FD;
+}
+
 .campo{
     display: flex;
     flex-direction: column;
-}
-
-.campo input{
-    width: 30vw;
-    height: 5vh;
-    padding: 0.8vw;
-    font-size: 0.8vw;
 }
 
 #img{

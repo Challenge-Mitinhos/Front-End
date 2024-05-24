@@ -19,27 +19,34 @@
         </div>
         
         <div id="ladoDireitoSemLogo">
-          <div id="title">
-            <h1>Bem vindo de volta!</h1>
-            <h6 id="subTitle">Autocare: onde confiança e segurança se encontram</h6>
+          <div class="title">
+            <h1 id="title">Bem vindo de volta!</h1>
+            <div class="subTitle">
+              <h6 id="sub1">AutoCare:</h6> 
+              <h6>onde confiança e segurança se encontram.</h6>
+            </div>
           </div>
 
           <div class="container">
             <form id="loginForm">
               <div class="campo">
                 <label id="email">Email</label>
-                <input id="txtField1" type="text" name="txtEmail" placeholder="Digite seu email"/>
+                <input id="txtField1" type="text" name="txtEmail" class="input" placeholder="Digite seu email"/>
               </div>
               <div class="campo">
                 <label id="senha">Senha</label>
-                <input id="txtField2" type="text" name="txtSenha" placeholder="Digite sua senha"/>
+                <input id="txtField2" type="text" name="txtSenha" class="input" placeholder="Digite sua senha"/>
+              </div>
+              <div id="lembrar" class="lembrar">
+                <input type="checkbox" id="boxLembrar" class="caixa"/>
+                <label id="txtLembrar" class="termo">Lembrar de mim</label>
               </div>
             </form>
             <form action="../dashboard.html" method="get">
-              <button id="entrar" type="submit">Entrar</button>
+              <button id="entrar" type="submit" class="botao">Entrar</button>
             </form>
           </div>
-          <div>
+          <div id="irParaCadastro">
             <p>
               Ainda não tem uma conta?
               <a href="./cadastro.html"> Cadastre-se aqui</a>
