@@ -5,46 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tela de Login</title>
     <link rel="stylesheet" href="../css/login.css" />
-    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/reset.css" />
   </head>
   <body>
     <main id="conteudo">
       <section id="ladoEsquerdo">
-        <img src="../img/pontoDeOnibus.png" alt="ponto de onibus com comercial da fiap na tela"/>
+        <img
+          src="../img/pontoDeOnibus.png"
+          alt="ponto de onibus com comercial da fiap na tela"
+        />
       </section>
 
       <section id="ladoDireito">
         <div id="divImagem">
-          <a href="../index.html"><img id="img" src="../img/logo.png" alt="logo autocare, a letra 'A' e a letra 'C' interligadas, da cor azul com um tema tecnologico"/></a>
+          <a href="../index.html"
+            ><img
+              id="img"
+              src="../img/logo.png"
+              alt="logo autocare, a letra 'A' e a letra 'C' interligadas, da cor azul com um tema tecnologico"
+          /></a>
         </div>
-        
+
         <div id="ladoDireitoSemLogo">
           <div class="title">
             <h1 id="title">Bem vindo de volta!</h1>
             <div class="subTitle">
-              <h6 id="sub1">AutoCare:</h6> 
+              <h6 id="sub1">AutoCare:</h6>
               <h6>onde confiança e segurança se encontram.</h6>
             </div>
           </div>
-
           <div class="container">
             <form id="loginForm">
               <div class="campo">
                 <label id="email">Email</label>
-                <input id="txtField1" type="text" name="txtEmail" class="input" placeholder="Digite seu email"/>
+                <input
+                  id="txtField1"
+                  type="email"
+                  name="txtEmail"
+                  class="input"
+                  placeholder="Digite seu email"
+                />
               </div>
               <div class="campo">
                 <label id="senha">Senha</label>
-                <input id="txtField2" type="text" name="txtSenha" class="input" placeholder="Digite sua senha"/>
+                <input
+                  id="txtField2"
+                  type="password"
+                  name="txtSenha"
+                  class="input"
+                  placeholder="Digite sua senha"
+                />
               </div>
               <div id="lembrar" class="lembrar">
-                <input type="checkbox" id="boxLembrar" class="caixa"/>
+                <input type="checkbox" id="boxLembrar" class="caixa" />
                 <label id="txtLembrar" class="termo">Lembrar de mim</label>
               </div>
             </form>
-            <form action="../dashboard.html" method="get">
-              <button id="entrar" type="submit" class="botao">Entrar</button>
-            </form>
+            <button
+              id="entrar"
+              form="loginForm"
+              type="submit"
+              class="botao"
+              formaction="../dashboard.html"
+            >
+              Entrar
+            </button>
+                   
           </div>
           <div id="irParaCadastro">
             <p>
