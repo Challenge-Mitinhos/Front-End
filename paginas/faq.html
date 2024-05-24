@@ -5,32 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/faq.css" />
+    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
-
-    <script
-      src="https://kit.fontawesome.com/6cc8a6f404.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <title>Faq</title>
+    <script src="https://kit.fontawesome.com/6cc8a6f404.js" crossorigin="anonymous"></script>
+    <title>Time</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <div>
-        <img src="../img/logo.png" alt="" class="img" />
+        <a href="../dashboard.html"><img src="../img/logo.png" alt="" class="img"/></a>
       </div>
-      <div id="menu">
-        <nav>
-          <ul class="menuzinho">
-            <li><a href="../index-logado.html">Home</a></li>
-            <!-- <li><a href="#time">About</a></li> -->
-            <li><a href="./chat-bot.html">ChatBot</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div id="icon">
-        <i class="fa-solid fa-user" style="color: #336bd2"></i>
-      </div>
+      <nav id="menu" class="menu">
+        <ul>
+          <li><a href="../dashboard.html" class="opcao">Home</a></li>
+          <li><a href="./chat-bot.html" class="opcao">ChatBot</a></li>
+          <li><a href="./perfil.html" class="opcao" id="login"><i class="fa-solid fa-user" style="color: #01A1FD"></i></a></li>
+        </ul>
+      </nav>
     </header>
     <main id="conteudo">
       <section class="container">
@@ -154,37 +145,48 @@
         </div>
       </section>
     </main>
-    <footer> 
-       <h2 class="siga">Siga-nos</h2>
+    <footer class="siganos">
+      <h2 class="siga">Siga-nos</h2>
       <div class="rede_social">
-      
         <nav>
           <ul class="social_container">
             <li>
               <a href="#">
-                <i class="fa-brands fa-facebook"  alt="icone do facebook" style="color: #336bd2;"></i>
+                <i
+                  class="fa-brands fa-facebook"
+                  style="color: #01A1FD"
+                ></i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fa-brands fa-x-twitter" alt="icone do twitterX" style="color: #336bd2;"></i>
+                <i
+                  class="fa-brands fa-x-twitter"
+                  style="color: #01A1FD"
+                ></i>
               </a>
             </li>
             <li>
               <a href="#"
-                ><i class="fa-brands fa-github" alt="icone do github" style="color: #336bd2;"></i>
-           </a>
+                ><i
+                  class="fa-brands fa-github"
+                  style="color: #01A1FD"
+                ></i>
+              </a>
             </li>
             <li>
               <a href="#">
-                <i class="fa-brands fa-instagram"  alt="icone do instagram" style="color: #336bd2;"></i>
-               </a>
+                <i
+                  class="fa-brands fa-instagram"
+                  style="color: #01A1FD"
+                ></i>
+              </a>
             </li>
           </ul>
         </nav>
       </div>
       <p class="copy">
-        &copy; Todos os direitos reservados a Porto Seguro ©️ 2024
+        Todos os direitos reservados à AutoCare &copy; 2024
       </p>
     </footer>
   </body>

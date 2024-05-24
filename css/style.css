@@ -1,37 +1,3 @@
-
-.opcao {
-    color: black;
-    transition: all ease-in 0.1s;
-}
-
-.opcao:hover {
-    color: rgb(82, 82, 82);
-}
-
-#login {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #01a1fd;
-    transition: all ease-in 0.1s;
-}
-
-#login:hover {
-    color: #53c0ff;
-}
-
-.fa-user {
-    padding-left: 2rem;
-}
-
-.menu ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2rem;
-    font-size: 1.3rem;
-    margin: 3.5rem;
-}
-
 .container {
     background-color: #ffffff6b;
     display: grid;
@@ -102,12 +68,6 @@
     width: 100%;
 }
 
-i {
-    display: flex;
-    font-size: 150%;
-}
-
-
 main {
     height: 90vh;
     background-image: url(../img/rodovia.jpg);
@@ -117,7 +77,6 @@ main {
     justify-content: center;
     align-items: center;
 }
-
 
 .decoretion {
     display: grid;
@@ -146,6 +105,7 @@ main {
         width: 40%;
     } */
 }
+
 @media (max-width: 780px) {
     .imgMulherBot {
         display: none;

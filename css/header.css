@@ -1,13 +1,34 @@
 header {
     display: flex;
     width: 100%;
-    height: 8vw;
+    height: 5vw;
     justify-content: space-between;
     align-items: center;
     padding-inline: 4vw;
 }
 
+header i{
+    font-size: 1.6vw;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+    font-size: 1.3rem;
+    margin: 3.5rem;
+}
+
+.menu a{
+    color: black;
+    transition: all ease-in 0.1s;
+}
+.menu a:hover {
+    color: rgb(82, 82, 82);
+}
+
 .img {
     display: flex;
-    width: 23%;
+    width: 20%;
 }

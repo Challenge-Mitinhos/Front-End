@@ -4,35 +4,9 @@ main{
     height: 100%;
 }
 
-.menu{
-    display: flex;
-    align-items: center;
-    font-size: 50px;
-    margin: 40px;
-}   
-
-.img{
-    display: flex;
-    width: 6vw;
- 
-}
-
-i{
-    display: flex;
-    font-size: 200%;
-}
-
-.menuzinho{
-    display: flex;
-  
-    gap: 80%;
-    
-}
-
 #conteudo{
     display: flex;
     justify-content: space-around;
-   
 }
 
 #txtResumo{
@@ -66,20 +40,6 @@ i{
     background-color: #F4F4F4;
 }
 
-.social_container{
-  
-display: flex;
-margin: 10px;
-gap: 32px;
-justify-content: start;
-
-}
-
-.siga{
-    margin: 10px;
-    font-size: 2vw;
-}
-
 #buttonFaq{
     background-color:  var(--button-color);
     width: 18vw;
@@ -107,5 +67,4 @@ justify-content: start;
 
 a{
     color: var(--button-color);
-   
 }
