@@ -57,3 +57,13 @@ i{
     color: #fff;
     text-align: center;
 }
+
+main {
+    height: 90vh;
+    background-image: url(../img/star-wars-2046374_1920\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
