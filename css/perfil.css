@@ -8,6 +8,15 @@ header {
     padding-inline: 4vw;
 }
 
+.container {
+    background-color: #ffffff6b;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 3rem;
+    width: 60vw;
+    height: 75vh;
+}
+
 .menu{
     display: flex;
     align-items: center;
@@ -18,7 +27,6 @@ header {
 .img{
     display: flex;
     width: 6vw;
- 
 }
 
 i{
@@ -26,36 +34,25 @@ i{
     font-size: 200%;
 }
 
-.menuzinho{
-    display: flex;
-  
-    gap: 7vw;
-    
-}
-
-.container{
-    width: 38vw;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    align-items: center;
-  
-}
-
-#conteudo{
-    display: flex;
-    justify-content: space-around;
-   
-}
-
 #salvar{
-    background-color:  var(--button-color);
-    width: 10vw;
-    height: 5vh;
-    border-radius: 4vh;
-    font-size: 1.3vw;
+    width: 9vw;
+    height: 6vh;
+    background-color: #2A5587;
+    font-size: 1vw;
+    font-weight: bold;
+    margin-top: 3vh;
+    border: 0;
+    border-radius: 0.5vw;
     color: #fff;
-    text-align: center;
+    font-size: 1.2vw;
+    transition: transform 0.3s ease, box-shadow 0.2s ease;
+}
+
+#salvar:hover{
+    pointer-events: auto;
+    transform: translateY(-0.5vh);
+    box-shadow: 0vh 0.5vh 0.5vh #90C1F2;
+    cursor: pointer;
 }
 
 main {
