@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/perfil.css" />
-    <link rel="stylesheet" href="../css/footer.css"/>
-    <link rel="stylesheet" href="../css/header.css"/>
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/cadastro.css" />
 
     <script
       src="https://kit.fontawesome.com/6cc8a6f404.js"
@@ -37,154 +38,85 @@
             <img src="../img/perfil.png" alt="home com cadeado" />
           </div>
         </section>
-        <section class="container">
-          <div id="informacoes">
-            <!-- <div id="perfil">
-              <img src="../img/foto-perfil.png" alt="foto de perfil" />
-              <h3>Nome Completo</h3>
-            </div> -->
-            <h1>Suas informações</h1>
+        <section id="campoCadastro">
+          <h2 id="titleI">Suas Informações</h2>
+
+          <form id="inputs">
+            <div id="campoNome" class="campo">
+              <label id="nome">Nome</label>
+              <input
+                id="txtField1"
+                type="text"
+                name="txtNm"
+                class="inptPequeno input"
+              />
+            </div>
+
+            <div id="campoSobrenome" class="campo">
+              <label id="sobrenome">Sobrenome</label>
+              <input
+                id="txtField2"
+                type="text"
+                name="txtSobrenome"
+                class="inptPequeno input"
+              />
+            </div>
+
+            <div id="campoEmail" class="campo">
+              <label id="email">Email</label>
+              <input
+                id="txtField3"
+                type="email"
+                name="txtEmail"
+                class="inptGrande input"
+                placeholder=""
+              />
+            </div>
+
+            <div id="campoCpf" class="campo">
+              <label id="cpf">CPF</label>
+              <input
+                id="txtField4"
+                type="text"
+                name="txtCpf"
+                class="inptPequeno input"
+              />
+            </div>
+
+            <div id="campoTelefone" class="campo">
+              <label id="telefone">Telefone</label>
+              <input
+                id="txtField5"
+                type="tel"
+                name="txtTelefone"
+                class="inptPequeno input"
+              />
+            </div>
+
+            <div id="campoSenha" class="campo">
+              <label id="senha">Senha</label>
+              <input
+                id="txtField6"
+                type="password"
+                name="txtSenha"
+                class="inptGrande input"
+                minlength="8"
+                placeholder="8+ caracteres"
+              />
+            </div>
+          </form>
+
+          <div id="botaoCriarConta">
+            <button
+              id="botaoConta"
+              form="inputs"
+              type="submit"
+              class="botao"
+              formaction="../dashboard.html"
+            >
+              Salvar
+            </button>
           </div>
-          <div id="editaveis">
-            <form class="inputs">
-              <div id="campoNome">
-                <label id="nome"
-                  >Nome
-                  <input
-                    id="txtField1"
-                    type="text"
-                    name="txtNm"
-                    placeholder="Pedro"
-                  />
-                </label>
-                <button id="editar">
-                  <i
-                    class="fa-solid fa-pen"
-                    alt="lapis"
-                    style="color: #336bd2"
-                  ></i>
-                </button>
-              </div>
-              <div id="campoSobrenome">
-                <label id="Sobrenome"
-                  >Sobrenome
-                  <input
-                    id="txtField2"
-                    type="text"
-                    name="txtSobrenome"
-                    placeholder="da Silva Santos"
-                  />
-                </label>
-                <button id="editar">
-                  <i
-                    class="fa-solid fa-pen"
-                    alt="lapis"
-                    style="color: #336bd2"
-                  ></i>
-                </button>
-              </div>
-              <div id="campoEmail">
-                <label id="email"
-                  >Email
-                  <input
-                    id="txtField3"
-                    type="text"
-                    name="txtEmail"
-                    placeholder="pedrodasilva@email.com"
-                  />
-                </label>
-                <button id="editar">
-                  <i
-                    class="fa-solid fa-pen"
-                    alt="lapis"
-                    style="color: #336bd2"
-                  ></i>
-                </button>
-              </div>
-              <div id="campoCpf">
-                <label id="cpf"
-                  >CPF
-                  <input
-                    id="txtField4"
-                    type="text"
-                    name="txtCpf"
-                    placeholder="000XXXXXX-XX "
-                  />
-                </label>
-                <button id="editar">
-                  <i
-                    class="fa-solid fa-pen"
-                    alt="lapis"
-                    style="color: #336bd2"
-                  ></i>
-                </button>
-              </div>
-              <div id="campoEnd">
-                <label id="endereco"
-                  >Endereço
-                  <input
-                    id="txtField5"
-                    type="text"
-                    name="txtEnd"
-                    placeholder="Eua XXXXXXX, XXX "
-                  />
-                </label>
-                <button id="editar">
-                  <i
-                    class="fa-solid fa-pen"
-                    alt="lapis"
-                    style="color: #336bd2"
-                  ></i>
-                </button>
-              </div>
-              <div id="campoNum">
-                <label id="numero"
-                  >Número
-                  <input
-                    id="txtField6"
-                    type="text"
-                    name="txtNum"
-                    placeholder="+55(00)0000-XXXX"
-                  />
-                </label>
-                <button id="editar">
-                  <i
-                    class="fa-solid fa-pen"
-                    alt="lapis"
-                    style="color: #336bd2"
-                  ></i>
-                </button>
-              </div>
-            </form>
-          </div>
-          <div id="senha">
-            <form class="inputsSenha">
-              <div id="senhaAtual">
-                <label id="senhaAtual">
-                  Senha atual:
-                  <input
-                    id="senhaAtual"
-                    type="text"
-                    name="txtSnAtual"
-                    placeholder="************"
-                  />
-                </label>
-              </div>
-              <div id="novaSenha">
-                <label id="novaSenha">
-                  Nova senha:
-                  <input id="novaSenha" type="text" name="txtNvSenha" />
-                </label>
-              </div>
-              <div id="confSenha">
-                <label id="confSenha">
-                  Confirmar senha:
-                  <input id="confSenha" type="text" name="txtConfSenha" />
-                </label>
-              </div>
-            </form>
-          </div>
-          <button id="salvar">salvar</button>
         </section>
       </div>
     </main>
@@ -195,42 +127,28 @@
           <ul class="social_container">
             <li>
               <a href="#">
-                <i
-                  class="fa-brands fa-facebook"
-                  style="color: #01A1FD"
-                ></i>
+                <i class="fa-brands fa-facebook" style="color: #01a1fd"></i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i
-                  class="fa-brands fa-x-twitter"
-                  style="color: #01A1FD"
-                ></i>
+                <i class="fa-brands fa-x-twitter" style="color: #01a1fd"></i>
               </a>
             </li>
             <li>
               <a href="#"
-                ><i
-                  class="fa-brands fa-github"
-                  style="color: #01A1FD"
-                ></i>
+                ><i class="fa-brands fa-github" style="color: #01a1fd"></i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i
-                  class="fa-brands fa-instagram"
-                  style="color: #01A1FD"
-                ></i>
+                <i class="fa-brands fa-instagram" style="color: #01a1fd"></i>
               </a>
             </li>
           </ul>
         </nav>
       </div>
-      <p class="copy">
-        Todos os direitos reservados à AutoCare &copy; 2024
-      </p>
+      <p class="copy">Todos os direitos reservados à AutoCare &copy; 2024</p>
     </footer>
   </body>
 </html>
