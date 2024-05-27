@@ -8,12 +8,7 @@
     height: 75vh;
 }
 
-i {
-    display: flex;
-    font-size: 200%;
-}
-
-#salvar {
+.botaoSalvar {
     width: 9vw;
     height: 6vh;
     background-color: #2a5587;
@@ -25,14 +20,14 @@ i {
     color: #fff;
     font-size: 1.2vw;
     transition:
-        transform 0.3s ease,
-        box-shadow 0.2s ease;
+    transform 0.3s ease,
+    box-shadow 0.2s ease;
 }
 
-#salvar:hover {
+.botaoSalvar:hover {
     pointer-events: auto;
     transform: translateY(-0.5vh);
-    box-shadow: 0vh 0.5vh 0.5vh #90c1f2;
+    box-shadow: 0vh 0.5vh 0.5vh #0c223bcb;
     cursor: pointer;
 }
 
@@ -46,13 +41,6 @@ main {
     align-items: center;
 }
 
-.input {
-    height: 1vw;
-    width: 20vw;
-    border-radius: 0.7rem;
-    border: 0.3vh solid #2a5587;
-    padding-left: 0.7vw;
-}
 #titleI {
     font-size: 3vw;
     color: #2a5587;
