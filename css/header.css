@@ -20,12 +20,23 @@ header i{
     margin: 3.5rem;
 }
 
-.menu a{
+.opcao{
     color: black;
     transition: all ease-in 0.1s;
 }
-.menu a:hover {
+
+.opcao:hover {
     color: rgb(82, 82, 82);
+}
+
+.entrar {
+    font-weight: 700;
+    font-size: 2.5vh;
+    color: #01A1FD;
+}
+
+.entrar:hover {
+    color: #49bcff;
 }
 
 .img {

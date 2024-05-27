@@ -52,8 +52,8 @@
     text-align: center;
     border: 0;
     transition:
-        transform 0.3s ease,
-        box-shadow 0.2s ease;
+    transform 0.3s ease,
+    box-shadow 0.2s ease;
 }
 
 #cadastro:hover {

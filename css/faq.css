@@ -1,27 +1,86 @@
+html {
+    scroll-behavior: smooth;
+}
+
 main {
+    box-shadow: inset 0 .8vh 2vh -1.3vh rgba(0, 0, 0, 0.3);
+    background-color: #fbfdff;
+    display: flex;
     width: 100%;
     height: 100%;
+    flex-direction: column;
 }
 
-#conteudo {
+#principal{
     display: flex;
     justify-content: space-around;
-    gap: 79px;
+    height: 90vh;
 }
 
-#txtResumo {
-    text-align: center;
-    font-size: 2.5vw;
+.container {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: left;
+    gap: 2.5vh;
 }
 
-#cadastro {
+#texto {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+#texto p{
+    color: #4B5259;
+    font-size: 2.1vh;
+}
+
+#texto #timeBtn{
+    color: #fdfdfd;
+}
+
+#timeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.3vw;
+    height: 2vw;
+    border-radius: .6rem;
     background-color: var(--button-color);
-    width: 20vw;
-    height: 10vh;
-    border-radius: 4vh;
-    font-size: 1.8vw;
+}
+
+#buttonFaq {
+    background-color: var(--button-color);
+    width: 41vh;
+    height: 7.5vh;
+    border-radius: 2vh;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.3vw;
     color: #fff;
     text-align: center;
+    gap: 90%;
+    transition: all 0.3s ease;
+}
+
+#buttonFaq:hover {
+    pointer-events: auto;
+    transform: translateY(-0.5vh);
+    box-shadow: 0vh 0.5vh 0.5vh #90c1f2c4;
+    cursor: pointer;
+}
+
+#faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh;
+    background-color: #f4f4f4;
+    height: 60vh;
 }
 
 #fotos {
@@ -29,47 +88,80 @@ main {
     align-items: center;
     justify-content: center;
     gap: 4%;
-    background-color: #f4f4f4;
 }
 
 #time {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20%;
     font-size: 2vh;
-    background-color: #f4f4f4;
 }
 
-#buttonFaq {
-    background-color: var(--button-color);
-    width: 60%;
-    height: 8vh;
-    border-radius: 4vh;
-    font-size: 1.3vw;
-    color: #fff;
-    text-align: center;
-    gap: 90%;
-}
-
-.container {
-    width: 38vw;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    align-items: center;
-}
-
-#texto {
-    font-size: 2vw;
+#time i{
+    font-size: 3vh;
 }
 
 a {
     color: var(--button-color);
 }
+
 .buttoon {
     display: grid;
     align-items: start;
     width: 60%;
     height: 8vh;
-    padding: 5%;
+}
+
+.perfil{
+    width: 18.65vw;
+    height: 23.2vw;
+    background-color: #fff;
+}
+
+.perfil img{
+    width: 18.65vw;
+    height: auto;
+}
+
+.descPerfil{
+    color: #282828;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.descPerfil h3{
+    color: #3E3E59;
+    font-weight: 400;
+}
+
+.descPerfil p{
+    color: #5F6980;
+    font-weight: lighter;
+    font-size: 1.5vh;
+}
+
+.icones{
+    display: flex;
+    font-size: 1.2vw;
+    gap: 1vw;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5vw;
+    height: 2.5vw;
+    color: #282828;
+    background-color: #F2F4F7;
+    border-radius: 100%;
+    transition: all 0.3s ease;
+}
+
+.icon:hover{
+    background-color: #cacbce;
+    color: #000000;
 }
