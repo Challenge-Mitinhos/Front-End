@@ -9,6 +9,7 @@ main {
     width: 100%;
     height: 100%;
     flex-direction: column;
+    scroll-behavior: smooth;
 }
 
 #principal{
@@ -76,11 +77,12 @@ main {
 #faq{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 4vh;
     background-color: #f4f4f4;
-    height: 60vh;
+    height: 70vh;
+    box-shadow: inset 0 -.8vh 2vh -1.3vh rgba(0, 0, 0, 0.3);
 }
 
 #fotos {
@@ -94,12 +96,21 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20%;
-    font-size: 2vh;
+    gap: 13%;
+    font-size: 1.8vw;
+}
+
+#tracoAzul {
+    display: flex;
+    width: 4.5vw;
+    height: .5vw;
+    border-radius: 1rem;
+    background-color: var(--button-color);
+    color: #f2f4f700;
 }
 
 #time i{
-    font-size: 3vh;
+    font-size: 3vw;
 }
 
 a {
@@ -114,8 +125,11 @@ a {
 }
 
 .perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 18.65vw;
-    height: 23.2vw;
+    height: 46vh;
     background-color: #fff;
 }
 
@@ -132,9 +146,14 @@ a {
     gap: 1vh;
 }
 
+.descPerfil h2{
+    font-size: 1.6vw;
+}
+
 .descPerfil h3{
     color: #3E3E59;
     font-weight: 400;
+    font-size: 1.1vw;
 }
 
 .descPerfil p{
@@ -145,14 +164,16 @@ a {
 
 .icones{
     display: flex;
+    align-items: center;
     gap: 1vw;
 }
 
 .icon{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-top: 1.27vh;
     width: 2.5vw;
     height: 2.5vw;
     font-size: 1.2vw;

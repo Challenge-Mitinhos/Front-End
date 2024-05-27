@@ -1,3 +1,7 @@
+body {
+    overflow: auto;
+}
+
 .conteudo {
     display: flex;
     background-color: #ffffff6b;
