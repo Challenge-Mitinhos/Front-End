@@ -1,4 +1,4 @@
-* {
+html {
     scroll-behavior: smooth;
 }
 
@@ -131,6 +131,7 @@ a {
     width: 18.65vw;
     height: 50vh;
     background-color: #fff;
+    box-shadow: 0 1vw 1.2vw 0 rgba(0, 0, 0, 0.062);
 }
 
 .perfil img{
