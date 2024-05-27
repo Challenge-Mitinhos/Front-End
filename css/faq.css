@@ -22,7 +22,7 @@ main {
     display: flex;
     flex-direction: column;
     align-self: center;
-    align-items: left;
+    align-items: start;
     gap: 2.5vh;
 }
 
@@ -145,7 +145,6 @@ a {
 
 .icones{
     display: flex;
-    font-size: 1.2vw;
     gap: 1vw;
 }
 
@@ -153,8 +152,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: 2.5vw;
     height: 2.5vw;
+    font-size: 1.2vw;
     color: #282828;
     background-color: #F2F4F7;
     border-radius: 100%;
