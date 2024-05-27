@@ -1,4 +1,4 @@
-html {
+* {
     scroll-behavior: smooth;
 }
 
@@ -79,7 +79,7 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 4vh;
+    padding: 3vh;
     background-color: #f4f4f4;
     height: 70vh;
     box-shadow: inset 0 -.8vh 2vh -1.3vh rgba(0, 0, 0, 0.3);
@@ -96,13 +96,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 13%;
+    gap: 2vw;
     font-size: 1.8vw;
 }
 
 #tracoAzul {
     display: flex;
-    width: 4.5vw;
+    width: 2.7vw;
     height: .5vw;
     border-radius: 1rem;
     background-color: var(--button-color);
@@ -129,7 +129,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     width: 18.65vw;
-    height: 46vh;
+    height: 50vh;
     background-color: #fff;
 }
 
